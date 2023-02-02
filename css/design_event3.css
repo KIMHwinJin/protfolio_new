@@ -1,0 +1,184 @@
+/* 넓이 1440  콘텐츠 1200  */
+/* font-family: 'Montserrat', sans-serif; */
+/* 노토산스 400 레귤러 500미디움 700볼드 900엑스트라볼드 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 */
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #202b41;
+}
+
+.header .center_box {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    margin-right: 400px;
+}
+
+.header .logo img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-top: 11px;
+}
+
+.header .nav {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header .nav li {
+    font-weight: 500;
+}
+/* 헤더 끝 */
+
+/* contents */
+.contents {
+    width: 1200px;
+    /* height: 3241px; */
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.contents .top {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.contents .top .txt_box {
+    text-align: center;
+    padding-top: 130px;
+}
+
+.contents .top .txt_box h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #202b41;
+    padding-bottom: 25px;
+}
+
+.contents .top .txt_box p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #202b41;
+}
+
+.contents .top .back {
+    display: flex;
+    position: absolute;
+    left: 1109px;
+    top: 134px;
+    width: 92px;
+    height: 34px;
+    justify-content: space-between;
+
+    padding: 0 10px;
+    align-items: center;
+}
+
+.contents .top .back p {
+    color: #9a9a9a;
+    font-size: 15px;
+}
+
+.contents .top .txt_box .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.contents .top .txt_box .btns a {
+    width: 161px;
+    height: 38px;
+    border: 1px solid #737373;
+    border-radius: 20px;
+    font-size: 14px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contents .bottom img {
+    width: 1200px;
+    height: 4175px;
+}
+
+.border {
+    border: 1px solid #e9e9ec;
+}
+
+/* footer */
+.footer {
+    width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc9c9;
+    text-align: center;
+    padding-top: 52px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer ul .mid_icon {
+    padding: 0 40px;
+}
+
+/* gotop */
+.gotop {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 26px;
+    background-color: #fff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    display: none;
+    z-index: 99;
+}
