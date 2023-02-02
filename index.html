@@ -51,6 +51,12 @@
             </div>
 
             <div class="main">
+                <div class="bg">
+                    <div class="item item_01"></div>
+                    <div class="item item_02"></div>
+                    <div class="item item_03"></div>
+                </div>
+
                 <div class="typing-txt">
                     <ul>
                         <li>Save하고 싶은 마케터 김휘진입니다.</li>
@@ -66,6 +72,11 @@
                         <li></li>
                         <li></li>
                     </ul>
+                </div>
+
+                <div class="arrows">
+                    <img class="prev" src="./images/prev_btn.png" alt="" />
+                    <img class="next" src="./images/next_btn.png" alt="" />
                 </div>
             </div>
 
@@ -331,6 +342,13 @@
         ></script>
 
         <script>
+            $('.bg').slick({
+                autoplay: true,
+                nextArrow: $('.next'),
+                prevArrow: $('.prev'),
+                autoplaySpeed: 5000,
+            })
+
             $('.slide_01').slick({
                 infinite: true,
                 slidesToShow: 3,
@@ -353,6 +371,6 @@
                 autoplaySpeed: 4000,
             })
         </script>
-        <script src="./js/type.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
