@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
-        <link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="./css/main.css" />
         <link
             rel="stylesheet"
             href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
@@ -37,7 +37,7 @@
                         <li><a href="/pages/profile.html">프로필</a></li>
                         <li><a href="./pages/uiux/UIUX.html">UI/UX</a></li>
                         <li>
-                            <a href="/pages/publishing/publishing.html"
+                            <a href="./pages/publishing/publishing.html"
                                 >Publishing</a
                             >
                         </li>
@@ -57,26 +57,30 @@
                     <div class="item item_03"></div>
                 </div>
 
-                <div class="typing-txt">
-                    <ul>
-                        <li>Save하고 싶은 마케터 김휘진입니다.</li>
-                        <li>고객의 니즈를 충족시킴으로써</li>
-                        <li>소비자의 뇌리에 깊이 각인될 수 있는</li>
-                        <li>콘텐츠를 만드는 마케터가 되고자 합니다.</li>
-                    </ul>
-                </div>
-                <div class="typing">
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
                 <div class="arrows">
                     <img class="prev" src="./images/prev_btn.png" alt="" />
                     <img class="next" src="./images/next_btn.png" alt="" />
+                </div>
+
+                <div class="effect">
+                    <div class="typing-txt">
+                        <ul>
+                            <li>Save하고 싶은</li>
+                            <li>아이디어가 넘치는</li>
+                            <li>고객과 소통하는</li>
+                        </ul>
+                    </div>
+
+                    <span class="typing"></span>
+                    마케터 김휘진입니다.
+                </div>
+
+                <div class="detail">
+                    <p>
+                        고객의 니즈를 충족시킴으로써<br />
+                        소비자의 뇌리에 깊이 각인될 수 있는<br />
+                        콘텐츠를 만드는 마케터가 되고자 합니다.
+                    </p>
                 </div>
             </div>
 
@@ -343,10 +347,11 @@
 
         <script>
             $('.bg').slick({
-                autoplay: true,
                 nextArrow: $('.next'),
                 prevArrow: $('.prev'),
-                autoplaySpeed: 5000,
+                autoplay: true,
+                autoplaySpeed: 6000,
+                pauseOnHover: false,
             })
 
             $('.slide_01').slick({
@@ -357,7 +362,7 @@
                 arrows: false,
                 variableWidth: true,
                 autoplay: true,
-                autoplaySpeed: 3000,
+                autoplaySpeed: 4000,
             })
 
             $('.slide_02').slick({
@@ -368,7 +373,7 @@
                 arrows: false,
                 variableWidth: true,
                 autoplay: true,
-                autoplaySpeed: 4000,
+                autoplaySpeed: 5000,
             })
         </script>
         <script src="./js/main.js"></script>

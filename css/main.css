@@ -81,10 +81,10 @@ body {
     height: 700px;
 }
 .main .bg .item_02 {
-    background-image: url(../images/slide_02.jpg);
+    background-image: url(../images/main_bg2.jpg);
 }
 .main .bg .item_03 {
-    background-image: url(../images/slide_03.jpg);
+    background-image: url(../images/main_bg3.jpg);
 }
 
 .arrows {
@@ -115,403 +115,40 @@ ul {
     list-style: none;
 }
 
-.typing {
+.effect {
     position: absolute;
-    text-align: center;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 700;
+    color: #202b41;
+}
+.effect span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #202b41;
 }
 
-.typing li {
+.main .detail {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 30px;
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 20px;
     font-weight: 400px;
     color: rgb(189, 184, 184);
 }
 
-.typing li:nth-child(2) {
-    margin-top: 30px;
-}
-
-.typing li:first-child {
-    font-size: 30px;
-    font-weight: 700;
-    color: #202b41;
-    text-align: center;
-}
 .typing ul li.on {
     display: inline-block;
     animation-name: cursor;
     animation-duration: 0.3s;
     animation-iteration-count: infinite;
 }
-@keyframes cursor {
-    0% {
-        border-right: 1px solid #fff;
-    }
-    50% {
-        border-right: 1px solid #000;
-    }
-    100% {
-        border-right: 1px solid #fff;
-    }
-}
 
-/* 메인 끝 */
-
-/* UI/UX */
-.uiux {
-    width: 100%;
-    height: 600px;
-    background-color: #f5f1e6;
-}
-
-.uiux .contents {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
-.uiux .contents h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    padding-bottom: 40px;
-    font-size: 40px;
-}
-
-.uiux .contents .slide_01 {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
-}
-
-.uiux .contents .slide_01 div {
-}
-
-.uiux .contents .slide_01 .pa {
-}
-
-.uiux .contents .slide_01 div a img {
-    width: 321px;
-    height: 222px;
-}
-
-.uiux .contents .slide_01 div a h3 {
-    font-size: 24px;
-    font-weight: 700;
-    padding-top: 18px;
-}
-
-.uiux .contents .slide_01 div a p {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 6px;
-}
-
-.uiux .slick-dots {
-    bottom: -90px;
-}
-
-.uiux .slick-slide {
-    width: 430px;
-}
-
-/* 슬라이드 버튼 필요 */
-/* uiux끝 */
-
-/* Publishing */
-.publishing {
-    width: 1200px;
-    height: 690px;
-    margin: 0 auto;
-}
-
-.publishing ul {
-    display: flex;
-    justify-content: space-between;
-}
-
-.publishing h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    padding-bottom: 40px;
-    font-size: 40px;
-    padding-top: 56px;
-    padding-bottom: 50px;
-}
-
-.publishing ul li a img {
-    width: 580px;
-    height: 310px;
-}
-
-.publishing .shoe {
-    border: 1px solid rgba(0, 0, 0, 0.12);
-    border-radius: 10px;
-}
-
-.publishing ul li a h3 {
-    font-size: 24px;
-    font-weight: 700;
-    padding-top: 18px;
-}
-
-.publishing ul li a p {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 6px;
-}
-
-/* 슬라이드 버튼 필요 */
-/* publishing끝 */
-
-/* 그래픽디자인  */
-.graphicdesign {
-    width: 100%;
-    height: 604px;
-    background-color: #f5f1e6;
-}
-
-.graphicdesign .contents {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
-.graphicdesign .contents h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    padding-bottom: 40px;
-    font-size: 40px;
-}
-
-.graphicdesign .contents .slide_02 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.graphicdesign .contents .slide_02 div a img {
-    width: 318px;
-    height: 222px;
-}
-
-.graphicdesign .contents .slide_02 div a h3 {
-    font-size: 24px;
-    font-weight: 700;
-    padding-top: 18px;
-}
-
-.graphicdesign .contents .slide_02 div a p {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 6px;
-}
-
-.graphicdesign .slick-dots {
-    bottom: -90px;
-}
-
-.graphicdesign .slick-slide {
-    width: 430px;
-}
-
-/* 그래픽디자인 끝 */
-
-.border {
-    border: 1px solid #e9e9ec;
-}
-
-/* footer */
-.footer {
-    width: 1200px;
-    height: 160px;
-    margin: 0 auto;
-}
-
-.footer p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #ccc9c9;
-    text-align: center;
-    padding-top: 52px;
-}
-
-.footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-}
-
-.footer ul .mid_icon {
-    padding: 0 40px;
-}
-
-/* gotop */
-.gotop {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 26px;
-    background-color: #fff;
-    box-shadow: 0 0 16px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-    display: none;
-    z-index: 99;
-}
-/* 넓이 1440  콘텐츠 1200  */
-/* font-family: 'Montserrat', sans-serif; */
-/* 노토산스 400 레귤러 500미디움 700볼드 900엑스트라볼드 */
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-body {
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-/* 헤더 */
-.header {
-    width: 100%;
-    height: 80px;
-    background-color: #202b41;
-}
-
-.header .center_box {
-    display: flex;
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.header .logo {
-    margin-right: 400px;
-}
-
-.header .logo img {
-    width: 60px;
-    height: 60px;
-    display: block;
-    margin-top: 11px;
-}
-
-.header .nav {
-    width: 1200px;
-    height: 80px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-}
-
-.header .nav li {
-    font-weight: 500;
-}
-/* 헤더 끝 */
-
-/* 메인 */
-.main {
-    position: relative;
-}
-
-.main .bg .item {
-    height: 700px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.main .bg .item_01 {
-    background-image: url(../images/main_bg.jpg);
-    width: 100%;
-    height: 700px;
-}
-.main .bg .item_02 {
-    background-image: url(../images/slide_02.jpg);
-}
-.main .bg .item_03 {
-    background-image: url(../images/slide_03.jpg);
-}
-
-.arrows {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
-}
-
-.arrows img {
-    opacity: 0.6;
-    cursor: pointer;
-}
-
-.arrows img:hover {
-    opacity: 0.9;
-}
-
-/* 메인 텍스트 효과 */
-.typing-txt {
-    display: none;
-}
-ul {
-    list-style: none;
-}
-
-.typing {
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.typing li {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400px;
-    color: rgb(189, 184, 184);
-}
-
-.typing li:nth-child(2) {
-    margin-top: 30px;
-}
-
-.typing li:first-child {
-    font-size: 30px;
-    font-weight: 700;
-    color: #202b41;
-    text-align: center;
-}
-.typing ul li.on {
-    display: inline-block;
-    animation-name: cursor;
-    animation-duration: 0.3s;
-    animation-iteration-count: infinite;
-}
 @keyframes cursor {
     0% {
         border-right: 1px solid #fff;
