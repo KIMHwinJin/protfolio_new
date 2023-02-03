@@ -360,10 +360,14 @@ ul {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    font-size: 26px;
+    font-size: 24px;
     background-color: #fff;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.12);
     cursor: pointer;
     display: none;
     z-index: 99;
+}
+
+.gotop i {
+    font-size: 26px;
 }

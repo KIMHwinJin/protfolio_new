@@ -173,3 +173,7 @@ body {
     display: none;
     z-index: 99;
 }
+
+.gotop i {
+    font-size: 26px;
+}
