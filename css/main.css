@@ -176,6 +176,7 @@ ul {
     padding-top: 50px;
 }
 
+
 .uiux .contents h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -198,6 +199,7 @@ ul {
 .uiux .contents .slide_01 div a img {
     width: 321px;
     height: 222px;
+    border-radius: 10px;
 }
 
 .uiux .contents .slide_01 div a h3 {
@@ -210,6 +212,12 @@ ul {
     font-size: 14px;
     font-weight: 400;
     padding-top: 6px;
+}
+
+.uiux .contents .slide_02 div a img {
+    width: 321px;
+    height: 222px;
+    border-radius: 10px;
 }
 
 .uiux .slick-dots {
