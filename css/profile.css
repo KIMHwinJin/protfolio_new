@@ -88,6 +88,7 @@ body {
 
 .main .right {
     width: 600px;
+    height: 830px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

@@ -136,6 +136,12 @@ body {
     align-items: center;
 }
 
+.contents .top .txt_box .btns a:hover{
+    border: 1px solid #202b41;
+    background-color: #202b41;
+    color: #fff;
+}
+
 .contents .bottom img {
     width: 1200px;
     height: 1200px;

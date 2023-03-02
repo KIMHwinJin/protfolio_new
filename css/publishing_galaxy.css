@@ -133,6 +133,13 @@ body {
     margin: 0 16px;
 }
 
+.galaxy .top .txt_box .btns a:hover{
+    border: 1px solid #202b41;
+    background-color: #202b41;
+    color: #fff;
+}
+
+
 .galaxy .bottom img {
     width: 1200px;
     height: 2704px;

@@ -133,6 +133,12 @@ body {
     margin: 0 16px;
 }
 
+.shoes .top .txt_box .btns a:hover{
+    border: 1px solid #202b41;
+    background-color: #202b41;
+    color: #fff;
+}
+
 .shoes .bottom img:nth-child(1) {
     margin-bottom: 70px;
     width: 1200px;
