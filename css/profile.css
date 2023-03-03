@@ -111,14 +111,34 @@ body {
     padding-top: 14px;
 }
 
+.main .right .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .skill .bar {
-    padding-bottom: 6px;
+    padding-bottom: 5px;
     padding-left: 9px;
+    width: 130px;
+    height: 10px;
 }
 
 .skill div {
     position: relative;
 }
+
+.skill .sks {
+    width: 22px;
+    height: 21px;
+}
+
+.skill .sks1 {
+    width: 24px;
+    height: 23px;
+}
+
+
 
 .skill div p {
     position: absolute;
